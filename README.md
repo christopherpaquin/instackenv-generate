@@ -1,4 +1,4 @@
-# csv-to-instack
+# instackenv generate
 Convert a CSV of your Overcloud nodes into the instackenv.json format.
 
 ## Origin
