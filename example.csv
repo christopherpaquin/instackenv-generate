@@ -1,0 +1,6 @@
+name,macaddress,ipmi ip,ipmi user,ipmi user,ipmi password,ipmi driver
+overcloud-node1,52:54:00:ac:78:ed,10.1.99.112,admin,password,pxe_ipmitool,6231
+overcloud-node2,52:54:00:41:b6:74,10.1.99.112,admin,password,pxe_ipmitool,6232
+overcloud-node3,52:54:00:ab:3f:7d,10.1.99.112,admin,password,pxe_ipmitool,6233
+overcloud-node4,52:54:00:2e:2b:3d,10.1.99.112,admin,password,pxe_ipmitool,6234
+overcloud-node5,52:54:00:15:b7:3a,10.1.99.112,admin,password,pxe_ipmitool,6235
