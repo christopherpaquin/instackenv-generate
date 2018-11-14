@@ -44,7 +44,8 @@ def main(argv):
         'disk' : "40", 
         'arch' : "x86_64", 
         'pm_user' : value[3], 
-        'pm_addr' : value[4],
+        'pm_password' : value[4], 
+        'pm_addr' : value[2],
         'pm_port' : value[6]})
 
     print json.dumps(jdata,indent=4, sort_keys=True) 
