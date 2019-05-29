@@ -44,7 +44,7 @@ def main(argv):
         'disk' : "40", 
         'arch' : "x86_64", 
         'pm_user' : value[2], 
-        'pm_password' : value[3], 
+        'pm_vm_name' : value[3], 
         'pm_addr' : value[1]})
         
 

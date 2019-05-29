@@ -1,6 +1,7 @@
-# name | macaddress | ip address | ipmi user | ipmi password | ipmi driver | vmbc port
-overcloud-node1,52:54:00:ac:78:ed,10.1.99.112,admin,password,pxe_ipmitool,6231
-overcloud-node2,52:54:00:41:b6:74,10.1.99.112,admin,password,pxe_ipmitool,6232
-overcloud-node3,52:54:00:ab:3f:7d,10.1.99.112,admin,password,pxe_ipmitool,6233
-overcloud-node4,52:54:00:2e:2b:3d,10.1.99.112,admin,password,pxe_ipmitool,6234
-overcloud-node5,52:54:00:15:b7:3a,10.1.99.112,admin,password,pxe_ipmitool,6235
+# name | ip address | ipmi user | ipmi password | ipmi driver | capabilities
+ilscha03-oscontrold-01,10.119.106.171,administrator,Sun123123,pxe_ipmitool,"node:overcloud-controller-1,boot_option:local"
+ilscha03-oscontrold-02,10.119.106.172,administrator,Sun123123,pxe_ipmitool,"node:overcloud-controller-2,boot_option:local"
+ilscha03-oscontrold-03,10.119.106.171,administrator,Sun123123,pxe_ipmitool,"node:overcloud-controller-3,boot_option:local"
+ilscha03-oscomd-01,10.119.106.177,administrator,Sun123123,pxe_ipmitool,"node:overcloud-compute-1,boot_option:local"
+ilscha03-oscomd-02,10.119.106.178,administrator,Sun123123,pxe_ipmitool,"node:overcloud-compute-2,boot_option:local"
+ilscha03-oscomd-03,10.119.106.179,administrator,Sun123123,pxe_ipmitool,"node:overcloud-compute-3,boot_option:local"

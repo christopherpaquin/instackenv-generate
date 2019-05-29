@@ -36,17 +36,17 @@ def main(argv):
             firstrow = False
             continue
         jdata['nodes'].append({'pm_password' : value[3], 
-        'pm_type' : value[4],
-        'capabilites' : value[5],
+        'pm_type' : value[5], 
+        'mac' : [value[1]], 
         'name' : value[0],
         'cpu' : "4", 
         'memory' : "6144", 
         'disk' : "40", 
         'arch' : "x86_64", 
-        'pm_user' : value[2], 
-        'pm_password' : value[3], 
-        'pm_addr' : value[1]})
-        
+        'pm_user' : value[3], 
+        'pm_password' : value[4], 
+        'pm_addr' : value[2],
+        'pm_port' : value[6]})
 
     print json.dumps(jdata,indent=4, sort_keys=True) 
 
